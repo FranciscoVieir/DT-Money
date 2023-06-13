@@ -1,0 +1,22 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2023-06-13T18:41:08.823Z"
+
+    },
+    {
+      "id": 2,
+      "description": "Hambuger",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2023-06-13T18:36:08.823Z"
+
+    }
+  ]
+}
