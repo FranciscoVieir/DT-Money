@@ -17,6 +17,15 @@
       "price": 50,
       "createdAt": "2023-06-13T18:36:08.823Z"
 
+    },
+    {
+      "id": 3,
+      "description": "Livro",
+      "type": "outcome",
+      "category": "Educação",
+      "price": 580,
+      "createdAt": "2023-06-13T18:23:08.823Z"
+
     }
   ]
 }
