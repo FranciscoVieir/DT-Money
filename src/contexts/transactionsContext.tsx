@@ -1,5 +1,6 @@
-import { ReactNode, createContext, useEffect, useState } from "react";
+import { ReactNode, useEffect, useState } from "react";
 import { api } from "../lib/axios";
+import { createContext } from "use-context-selector";
 
 interface Transaction {
   id: number,
@@ -33,13 +34,15 @@ export function TransactionsProvider({children}: TransactionsProviderProps) {
   const [transactions, setTransactions] = useState<Transaction[]>([])
 
   async function fecthtransactions(query?: string) {
-     await api.get('/transactions', {
+    const response = await api.get('/transactions', {
       params: {
         _sort: 'createdAt',
         _order: 'desc',
         q: query,
       }
+
     })
+    setTransactions(response.data)
   }
 
   async function createTransactions(data: CreateTransactionInput) {

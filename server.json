@@ -47,6 +47,14 @@
       "type": "outcome",
       "createdAt": "2023-06-14T19:48:41.360Z",
       "id": 6
+    },
+    {
+      "description": "Camisa",
+      "price": 32,
+      "category": "Roupa",
+      "type": "outcome",
+      "createdAt": "2023-06-14T20:18:17.573Z",
+      "id": 7
     }
   ]
 }
