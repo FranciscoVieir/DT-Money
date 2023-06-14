@@ -7,7 +7,6 @@
       "category": "Venda",
       "price": 14000,
       "createdAt": "2023-06-13T18:41:08.823Z"
-
     },
     {
       "id": 2,
@@ -16,7 +15,6 @@
       "category": "Alimentação",
       "price": 50,
       "createdAt": "2023-06-13T18:36:08.823Z"
-
     },
     {
       "id": 3,
@@ -25,7 +23,22 @@
       "category": "Educação",
       "price": 580,
       "createdAt": "2023-06-13T18:23:08.823Z"
-
+    },
+    {
+      "description": "Desenvolvimento Softskills",
+      "price": 983,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2023-06-14T19:19:39.905Z",
+      "id": 4
+    },
+    {
+      "description": "1kg Carne",
+      "price": 76,
+      "category": "Alimentação",
+      "type": "income",
+      "createdAt": "2023-06-14T19:38:09.256Z",
+      "id": 5
     }
   ]
 }
