@@ -33,7 +33,7 @@ export function TransactionsProvider({children}: TransactionsProviderProps) {
   const [transactions, setTransactions] = useState<Transaction[]>([])
 
   async function fecthtransactions(query?: string) {
-    const response = await api.get('/transactions', {
+     await api.get('/transactions', {
       params: {
         _sort: 'createdAt',
         _order: 'desc',

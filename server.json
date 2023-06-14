@@ -39,6 +39,14 @@
       "type": "income",
       "createdAt": "2023-06-14T19:38:09.256Z",
       "id": 5
+    },
+    {
+      "description": "teste da descricao",
+      "price": 646,
+      "category": "Venda",
+      "type": "outcome",
+      "createdAt": "2023-06-14T19:48:41.360Z",
+      "id": 6
     }
   ]
 }
